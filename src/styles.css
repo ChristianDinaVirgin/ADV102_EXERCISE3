@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 8px 0;
+  }
+  
+  li button {
+    margin-left: 8px;
+  }
+
+.TodoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.TodoForm input {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.TodoForm button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+
+li button {
+  margin-left: 8px;
+}
+
+li span {
+  flex-grow: 1; 
+}
